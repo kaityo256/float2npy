@@ -2,6 +2,29 @@
 
 ## 使い方
 
+```sh
+g++ save.cpp
+./a.out
+python3 load.py
+```
+
+もしくは
+
+```sh
+make
+```
+
+実行には`NumPy`と`Pillow`が必要なので、適宜インストールしておく。venvを使うならこんな感じ。
+
+```sh
+python3 -m venv myenv
+source myenv/bin/activate
+python3 -m pip install --upgrade pip
+python3 -m pip install numpy Pillow
+```
+
+## 解説
+
 C++の`save.cpp`をコンパイルして実行。すると、`data.dat`ができる。これは
 
 ```cpp
