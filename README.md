@@ -14,4 +14,10 @@ float data[row][column];
 
 次に、Python側の`load.py`を実行すると、`data.dat`を読み込み、同じ次元のNumPy配列にする。その後、そのNumPy配列をPillowのImageに変換して`output.png`という名前で保存する。
 
+`output.png`として、こんな画像が出力される。
 
+![img/output.png](img/output.png)
+
+## ライセンス
+
+MIT
