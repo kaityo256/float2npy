@@ -17,8 +17,8 @@ make
 実行には`NumPy`と`Pillow`が必要なので、適宜インストールしておく。venvを使うならこんな感じ。
 
 ```sh
-python3 -m venv myenv
-source myenv/bin/activate
+python3 -m venv .venv
+source .venv/bin/activate
 python3 -m pip install --upgrade pip
 python3 -m pip install numpy Pillow
 ```
